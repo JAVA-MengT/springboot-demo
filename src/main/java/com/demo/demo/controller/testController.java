@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class testController {
     @RequestMapping("/")
-    public String test2() {
-        System.out.println("master2");
-        return "master2";
+    public String test3() {
+        System.out.println("master3");
+        return "master3";
     }
 }
