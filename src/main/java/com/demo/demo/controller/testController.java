@@ -11,6 +11,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class testController {
     @RequestMapping("/")
     public String test() {
-        return "branch2.1";
+        return "master";
     }
 }
