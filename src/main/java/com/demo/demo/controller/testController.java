@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class testController {
     @RequestMapping("/")
     public String test() {
+        System.out.println("21:04");
         return "branch1.1.2";
     }
 }
