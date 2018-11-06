@@ -15,7 +15,7 @@ public class testController {
         return "master3";
     }
     public String test2() {
-        System.out.println("master");
+        System.out.println("master2");
         return "master";
     }
 }
