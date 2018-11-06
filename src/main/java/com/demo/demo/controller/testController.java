@@ -12,6 +12,6 @@ public class testController {
     @RequestMapping("/")
     public String test4() {
         System.out.println("master1");
-        return "master";
+        return "master3";
     }
 }
