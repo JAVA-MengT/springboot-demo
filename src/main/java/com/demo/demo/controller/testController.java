@@ -16,6 +16,6 @@ public class testController {
     }
     public String test2() {
         System.out.println("master2");
-        return "master";
+        return "master4";
     }
 }
